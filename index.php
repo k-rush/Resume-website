@@ -1,17 +1,12 @@
 <?php
+include 'Request.php';
 session_start();
-/*
- * Page used to process requests and redirect appropriately.
- */
 
+    $request = new Request();
+    $class = 'Action_' . $request->getGroup();
+    require_once $class . '.php';
+    $action = new $class;
+    $cmd = $request->getCommand();
+    $action->$cmd($request);
 
-    $request = array();
-    if (!empty($_POST)) $this->request = $_POST;
-    if (!empty($_GET)) $this->request = $_GET;
-    
-    require_once 'Action_Display.php';
-    
-    $display = new Action_Display();
-    $display->mainform();
-    
 ?>

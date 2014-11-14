@@ -1,14 +1,129 @@
-/* 
-    Document   : style
-    Created on : Nov 13, 2014, 2:08:14 AM
-    Author     : kdr213
-    Description:
-        Purpose of the stylesheet follows.
-*/
+/* Style sheet for Set Game window. */
+/* Kyle Rush */
 
-root { 
-    display: block;
+html, body { margin: 0; padding: 0; }
+
+
+#nameContainer {
+    
+    background-color: #D7DADE;
+
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #000000;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 100%; 
+    height:240px;
+}
+#nameContainer h1{
+    font: 42pt "Century Gothic";
+    text-align: center;
+    color:#0D2842;
+}
+#nameContainer h2{
+    
+    font: 22pt Tahoma;
+    text-align: center;
+    color:#0D2842;
+    
+}
+
+#nameContainer h3{
+    font: 18pt Arial;
+    text-align: center;
+    color:#0D2842;
+}
+
+p {
+  margin: 0;
 }
 
 
+.row {
+  margin: 0;
+}
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 23px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,1);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background: rgba(189,220,285,1);
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+}
+
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+}
+
+.item .pubdate {
+  text-align: right;  
+}
+
+.description {
+  display: none;
+  background-color: #EBF4FF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 18px;
+}
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+ 
+.clearfix {
+   display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+   display: block;
+}
+ 
+* html .clearfix {
+   height: 1%;
+   overflow: visible;
+}
 
