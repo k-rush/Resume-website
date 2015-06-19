@@ -37,8 +37,8 @@
               </div>
             </div>
             
-            <div class="articles container">
-                <div class="article">
+            <div class="articles container-fluid">
+                <div class="article" id ="WorkExp">
                 <div class="item row">
                   <div class="col-xs-11">
                     <p class="title"><h1>Work Experience</h1> </p>
@@ -109,7 +109,7 @@
                         <li>Created interfaces for administrators to update and manage the website independently.  </li>
                         <li>HTML, CSS, JavaScript, PHP.</li>
                     </ul>
-                        <a href="http://web.archive.org/web/20120807072021/http://fountaingreenswimclub.com/">Web Archive Snapshot</a>
+                        <a href="http://web.archive.org/web/20120807072021/http://fountaingreenswimclub.com/">Website Sample</a>
                         
                   </p>
 
@@ -130,8 +130,8 @@
                 </div>
                 <div class="description row">
                   <div class="col-xs-9"><h4>Responsibilities</h4>
-                    <p><ul><li>Assisted students understand many concepts relating to computer science.</li>
-                        <li>Students were taking beginner classes in object-oriented programming and systems software.</li>
+                    <p><ul><li>Assisted students in understanding many concepts relating to computer science.</li>
+                        <li>Was a mentor for computer science students.</li>
 
                     </ul>
                     

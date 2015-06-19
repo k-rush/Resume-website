@@ -6,7 +6,7 @@ html, body { margin: 0; padding: 0; }
 
 #nameContainer {
     
-    background-color: #D7DADE;
+    background-color: #FFF9F0;
 
     border-bottom: 1px solid;
     border-top: 1px solid;
@@ -21,7 +21,7 @@ html, body { margin: 0; padding: 0; }
 #nameContainer h1{
     font: 42pt "Century Gothic";
     text-align: center;
-    color:#0D2842;
+    color:#00045E;
 }
 #nameContainer h2{
     
